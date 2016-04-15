@@ -4,9 +4,6 @@
 ini_set("display_errors", 1);
 error_reporting(E_ALL);
 
-define('PATH_ABSOLUTO_DIRECTORIO_BASE_FILER', '/mnt/filer/html/desarrollo');
-define('PATH_ABSOLUTO_DIRECTORIO_BASE_LIBRERIA_SMARTY', PATH_ABSOLUTO_DIRECTORIO_BASE_FILER . '/lib/smarty3/libs');
-
 require_once __DIR__ . '/vendor/autoload.php';
 
 if (isset($_GET['portal'])) {
