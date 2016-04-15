@@ -1,6 +1,6 @@
 # widget Instagram
 
-# URL  : http://localhost/apinstagram/index.php?portal=name_to_share&col=2&fil=3&width=350px
+### URL  : http://localhost/apinstagram/index.php?portal=name_to_share&col=2&fil=3&width=350px
 
 "name_to_share" is set in config/api_config_instagram.ini file
 
