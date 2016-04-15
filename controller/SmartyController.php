@@ -1,13 +1,13 @@
 <?php
+//use Smarty;
 
-abstract class SmartyController
+abstract class SmartyController extends Smarty
 {
 
     public static function initSmarty($datos = null, $template)
     {
         // Class Constructor. These automatically get set with each new instance.
-        $smarty = new c_template;
-
+        $smarty = new Smarty;
         $smarty->compile_check = true;
         $smarty->template_dir = __DIR__ . '/../template';
         $smarty->compile_dir = __DIR__ . '/../cache_smarty';

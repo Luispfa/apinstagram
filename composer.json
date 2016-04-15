@@ -2,15 +2,9 @@
     "autoload": {
         "psr-4": {
             "": "controller/"
-        },
-        "classmap": [
-            "/mnt/filer/html/desarrollo/lib/smarty3/libs/c_template.php"
-        ],
-        "files": [
-            "/mnt/filer/html/desarrollo/lib/php/vendor/autoload.php"
-        ]
+        }
     },
     "require": {
-        "symfony/routing": "^3.0"
+        "smarty/smarty": "^3.1"
     }
 }
